@@ -1,13 +1,13 @@
 ## Setup py requirements
-requests==2.22.0
+requests==2.31.0
 boto3==1.9.146
 matplotlib==3.0.3
 attrs==19.1.0
 jsonpickle==1.1
 redis==3.3.5
 pymongo[tls,srv]==3.8.0
-numpy==1.16.3
-scipy==1.2.1
+numpy==1.22.2
+scipy==1.10.0rc1
 tensorflow==1.15.0
 absl-py>=0.8.0
 # setuptools comes from tensorboard requirement:
@@ -17,7 +17,7 @@ tensorflow-probability==0.7.0
 tensor2tensor==1.14.0
 apscheduler==3.6.0
 tqdm==4.31.0
-networkx==2.4.0
+networkx==2.6
 fbmessenger==6.0.0
 pykwalify==1.7.0
 coloredlogs==10.0
@@ -38,14 +38,14 @@ pytz==2019.1
 rasa-sdk~=1.6.0
 colorclass==2.2.0
 terminaltables==3.1.0
-sanic==19.9.0
+sanic==20.12.6
 sanic-cors==0.9.9.post1
 sanic-jwt==1.3.2
 # https://github.com/RasaHQ/rasa/pull/5064
 sanic-plugins-framework==0.8.2
 # needed because of https://github.com/huge-success/sanic/issues/1729
 multidict==4.6.1
-aiohttp==3.5.4
+aiohttp==3.8.5
 questionary==1.1.1
 python-socketio==4.3.1
 # the below can be unpinned when python-socketio pins >=3.9.3
@@ -61,3 +61,6 @@ PyJWT==1.7.1
 # https://github.com/tensorflow/tensorflow/issues/32319
 gast==0.2.2
 python-dateutil==2.8.0
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.17 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
