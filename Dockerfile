@@ -1,5 +1,5 @@
 # Create common base stage
-FROM python:3.6-slim as base
+FROM python:3.13.0a3-slim as base
 
 WORKDIR /build
 
