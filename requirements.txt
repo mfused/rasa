@@ -5,7 +5,7 @@ matplotlib==3.0.3
 attrs==19.1.0
 jsonpickle==1.1
 redis==3.3.5
-pymongo[tls,srv]==3.8.0
+pymongo==4.6.3
 numpy==1.16.3
 scipy==1.2.1
 tensorflow==1.15.0
