@@ -61,3 +61,4 @@ PyJWT==1.7.1
 # https://github.com/tensorflow/tensorflow/issues/32319
 gast==0.2.2
 python-dateutil==2.8.0
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
