@@ -11,3 +11,10 @@ sphinx-autodoc-typehints==1.6.0
 https://storage.googleapis.com/docs-theme/rasabaster-0.7.23.tar.gz
 git+https://github.com/RasaHQ/sphinxcontrib-versioning.git#egg=sphinxcontrib-versioning
 git+https://github.com/RasaHQ/sphinx_rtd_theme.git#egg=sphinx_rtd_theme
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-core>=4.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+nbconvert>=6.3.0b0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
