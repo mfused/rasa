@@ -47,7 +47,7 @@ sanic-plugins-framework==0.8.2
 multidict==4.6.1
 aiohttp==3.5.4
 questionary==1.1.1
-python-socketio==4.3.1
+python-socketio==5.14.0
 # the below can be unpinned when python-socketio pins >=3.9.3
 python-engineio==3.9.3
 pydot==1.4.1
